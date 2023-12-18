@@ -638,25 +638,6 @@ body{
     line-height: 150%; /* 21px */
 }
 
-.images_form{
-    overflow: hidden;
-    width: 1420px;
-    height: 392px;
-    border-radius: 4px;
-}
-
-.elipse {
-    width: 704.09px;
-    height: 700.6px;
-    top: 144.08px;
-    left: -232.51px;
-    opacity: 0.3px;
-    flex-shrink: 0;
-    transform: rotate(-44.28deg);
-    background: var(--Main-Color1-Light, #17E5E5);
-    border-radius: 704.094px;
-}
-
 @media (max-width: 1366px){
     .main{
         padding: 0px 45px;
