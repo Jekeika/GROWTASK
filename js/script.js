@@ -1,3 +1,4 @@
+//Скрипт для слайдера
 document.addEventListener("DOMContentLoaded", function() {
     const slides = document.querySelector('.cards_slider');
     const prevBtn = document.querySelector('.button_left');
@@ -17,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-// Скрипт для
+// Скрипт для меню
 const menuButton = document.querySelector(".m-menu_button");
 const menu = document.querySelector(".menu")
 menuButton.addEventListener('click', function() {
