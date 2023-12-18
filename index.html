@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GROWTASK</title>
+    <link rel="stylesheet" href="css/stylenow.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <div class="header">
+        <div class="main">
+            <!-- Логотип сайта -->
+            <div class="logotype">
+                <svg width="160" height="56" viewBox="0 0 160 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1_806)">
+                    <g clip-path="url(#clip1_1_806)">
+                    <path d="M10.1396 27.9887C10.1396 24.4854 13.0578 22.0938 17.4526 22.0938C18.9462 22.099 20.4234 22.3969 21.7953 22.9696L21.1352 24.7381C20.0125 24.2349 18.7935 23.9652 17.5568 23.9465C14.5865 23.9465 13.0578 25.4623 13.0578 27.9887C12.9951 28.4889 13.0397 28.9963 13.1888 29.479C13.3379 29.9616 13.5884 30.4092 13.9244 30.7935C14.2604 31.1779 14.6748 31.4907 15.1415 31.7123C15.6081 31.934 16.117 32.0597 16.6362 32.0816C17.4794 32.1072 18.305 31.8446 18.9687 31.3396C19.6324 30.8347 20.0918 30.1196 20.2667 29.3193H16.9662V27.4161H22.9765V33.6985H21.031V30.852C20.6767 31.8022 20.0151 32.6158 19.1447 33.1713C18.2744 33.7268 17.2421 33.9944 16.2019 33.9343C15.3986 33.9389 14.6024 33.7877 13.8602 33.4897C13.118 33.1917 12.4447 32.7529 11.8799 32.199C11.3151 31.645 10.8702 30.9872 10.5713 30.2642C10.2725 29.5412 10.1257 28.7676 10.1396 27.9887Z" fill="#030D0D"/>
+                    <path d="M47.5729 28.8636C47.3615 30.4771 47.4497 32.1142 47.8334 33.6975H45.0541C44.7668 32.3807 44.6617 31.0327 44.7415 29.6889H28.3088V33.6975H25.877V22.2949H42.2053C45.7837 22.2949 47.7292 23.5245 47.7292 25.9667C47.7495 26.6004 47.5597 27.2238 47.1876 27.7452C46.8156 28.2666 46.2809 28.6586 45.6621 28.8636H47.5729ZM28.3088 24.0971V27.8531H41.9622C44.0814 27.8531 45.141 27.3141 45.141 25.933C45.141 24.5519 44.1682 24.0634 42.0316 24.0634L28.3088 24.0971Z" fill="#030D0D"/>
+                    <path d="M50.2129 27.9885C50.2129 24.4178 53.1138 22.043 57.3001 22.043C61.4864 22.043 64.4047 24.4852 64.4047 27.9885C64.4047 31.4918 61.4691 33.934 57.3001 33.934C53.1312 33.934 50.2129 31.5592 50.2129 27.9885ZM61.7817 27.9885C61.7924 27.4293 61.6803 26.8743 61.4527 26.3603C61.2251 25.8464 60.8873 25.3853 60.4617 25.0077C60.0362 24.6301 59.5326 24.3447 58.9845 24.1704C58.4364 23.9961 57.8563 23.9369 57.2827 23.9967C56.7185 23.9612 56.1526 24.0383 55.6203 24.2233C55.088 24.4082 54.6005 24.6971 54.1879 25.072C53.7753 25.447 53.4464 25.9 53.2215 26.4031C52.9967 26.9062 52.8807 27.4486 52.8807 27.9969C52.8807 28.5452 52.9967 29.0877 53.2215 29.5908C53.4464 30.0939 53.7753 30.5469 54.1879 30.9218C54.6005 31.2967 55.088 31.5856 55.6203 31.7706C56.1526 31.9555 56.7185 32.0326 57.2827 31.9971C57.8577 32.0572 58.4394 31.9975 58.9887 31.8222C59.5381 31.6469 60.0425 31.36 60.4684 30.9806C60.8942 30.6011 61.2316 30.138 61.4581 29.622C61.6846 29.106 61.7949 28.5491 61.7817 27.9885Z" fill="#030D0D"/>
+                    <path d="M68.3823 22.2949L71.8564 30.969L75.3306 22.2949H77.7451L81.2192 30.8679L82.3309 27.4994H84.8323L82.8868 33.7312H79.6211L76.5986 25.4951L73.524 33.6975H70.2062L65.7246 22.2949H68.3823Z" fill="#030D0D"/>
+                    <path d="M84.0507 22.2949H99.389L98.451 24.2655H92.3191V33.6975H89.8178V24.2655H83.3906L84.0507 22.2949Z" fill="#030D0D"/>
+                    <path d="M105.47 22.2949L110.889 33.6975H108.162L107.05 31.2216H100.797L99.5985 33.7312H96.8887L102.308 22.2949H105.47ZM106.321 29.3858L103.941 23.8445L101.509 29.3858H106.321Z" fill="#030D0D"/>
+                    <path d="M113.652 31.0371C115.011 31.7024 116.508 32.0594 118.029 32.0813C119.975 32.0813 121.017 31.5086 121.017 30.717C121.017 28.5612 113.253 29.0328 113.253 25.1926C113.253 23.2893 115.198 22.043 118.325 22.043C120.02 22.0451 121.698 22.3773 123.258 23.0199L122.563 24.8726C121.234 24.2989 119.797 23.9951 118.342 23.9799C116.605 23.9799 115.91 24.401 115.91 25.1589C115.91 27.4158 123.64 27.1632 123.64 30.8181C123.64 32.6708 121.59 33.9845 118.064 33.9845C116.307 33.986 114.571 33.6182 112.975 32.9066L113.652 31.0371Z" fill="#030D0D"/>
+                    <path d="M129.025 22.2949V27.0951H140.924L146.239 22.2949H149.487L143.807 27.3478L149.974 33.647H146.83L142.157 28.8468H129.042V33.6638H126.523V22.2949H129.025Z" fill="#030D0D"/>
+                    <path d="M57.3001 29.3706C58.1443 29.3706 58.8287 28.707 58.8287 27.8884C58.8287 27.0698 58.1443 26.4062 57.3001 26.4062C56.4559 26.4062 55.7715 27.0698 55.7715 27.8884C55.7715 28.707 56.4559 29.3706 57.3001 29.3706Z" fill="#030D0D"/>
+                    </g>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_1_806">
+                    <rect width="160" height="56" fill="white"/>
+                    </clipPath>
+                    <clipPath id="clip1_1_806">
+                    <rect width="140" height="12" fill="white" transform="translate(10 22)"/>
+                    </clipPath>
+                    </defs>
+                </svg>     
+            </div>
+            <button class="m-menu_button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M3 12H21M3 18H21M3 6H21" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+            <!-- Меню шапки сайта -->
+            <ul class="menu">
+                <li class="menu-item">
+                    <a class="link" href="#about_us">Текст и картинки</a>
+                </li>
+                <li class="menu-item">
+                    <a class="link" href="#slider">Пример слайдер</a>
+                </li>
+                <li class="menu-item">
+                    <a class="link" href="#presentation">Кнопки и картинки</a>
+                </li>
+                <li class="menu-item">
+                    <a class="link" href="#info_support">Вопрос и ответ</a>
+                </li>
+                <li class="menu-button">
+                    <a href="#form_footer"><button>К форме</button></a>
+                </li>
+                <li class="menu-social">
+                    <div class="buttons_other">
+                        <button class="social">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <path d="M25.1788 32.3996C16.159 32.3996 11.0142 26.0933 10.7998 15.5996H15.318C15.4664 23.3017 18.7973 26.5642 21.4357 27.2368V15.5996H25.69V22.2423C28.2954 21.9564 31.0327 18.9293 31.9561 15.5996H36.2104C35.8625 17.3265 35.1688 18.9616 34.1729 20.4026C33.177 21.8436 31.9003 23.0596 30.4225 23.9744C32.072 24.8103 33.529 25.9934 34.6972 27.4457C35.8654 28.898 36.7184 30.5864 37.1998 32.3996H32.5167C32.0846 30.8247 31.2063 29.415 29.9919 28.347C28.7775 27.279 27.281 26.6003 25.69 26.396V32.3996H25.1788Z" fill="#0077FF"/>
+                            </svg>
+                        </button>
+                        <button class="social">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <path d="M33.5998 15.1231L29.9933 33.9511C29.9933 33.9511 29.4887 35.2565 28.1025 34.6305L19.7813 28.0235L19.7427 28.004C20.8667 26.9589 29.5827 18.8436 29.9636 18.4757C30.5533 17.906 30.1872 17.5669 29.5025 17.9972L16.628 26.464L11.661 24.7333C11.661 24.7333 10.8793 24.4454 10.8041 23.8193C10.7279 23.1922 11.6867 22.8531 11.6867 22.8531L31.9356 14.6271C31.9356 14.6271 33.5998 13.8699 33.5998 15.1231Z" fill="#27A6E5"/>
+                            </svg>
+                        </button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- Первый экран -->
+    <div class="firstscreen">
+        <div class="banner">
+            <div class="text">
+                <h1>Покажи нам чудеса <span style="color: #11A6A6;">своей вёрстки</span></h1>
+                <p>Это текстовое задание, которое нужно просто и грамотно сверстать. Мы уверены, что у тебя всё получится.</p>
+            </div>
+            <div class="outher">
+                <p>Покажи скролл на <span style="color: #11A6A6;">до формы:</span></p>
+                <div class="buttons">
+                    <a href="#form_footer"><button>К форме</button></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Картинки первого экрана -->
+        <div class="images">
+            <table>
+                <tr>
+                    <td class="image"><img src="img/firstscreen/image2.png" alt=""> </td>
+                    <td class="image" rowspan="2"><img src="img/firstscreen/image.png" alt=""></td>
+                </tr>
+                <tr>
+                    <td class="image"><img src="img/firstscreen/image1.png" alt=""></td>
+                </tr>
+            </table>
+        </div>
+        <div class="outher-mini">
+            <p>Покажи скролл на <span style="color: #11A6A6;">до формы:</span></p>
+            <div class="buttons">
+                <a href="#form_footer"><button>К форме</button></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- О нас -->
+    <div class="about_us" id="about_us">
+        <div class="info">
+            <div class="info_text">
+                <h2>Про вакансию</h2>
+                <p>Мы ищем аккуратного верстальщика, который хочет учиться и развиваться. С этим мы, конечно же, поможем.<br><br>Напомним про условия:</p>
+            </div>
+            <div class="numbers">
+                <div class="card">
+                    <h1>20 000</h1>
+                    <p>Твой оклад на время стажировки (Возможны премии)</p>
+                </div>
+                <div class="card">
+                    <h1>5/2</h1>
+                    <p>Рабочий график</p>
+                </div>
+                <div class="card">
+                    <h1>8 ч</h1>
+                    <p>Рабочий день</p>
+                </div>
+            </div>
+        </div>
+        <div class="photos">
+            <div>
+                <div class="pohto">
+                    <img src="img/about_us/image1.png" alt="">
+                </div>
+                <div class="pohto">
+                    <img src="img/about_us/image2.png" alt="">
+                </div>
+                <div class="pohto">
+                    <img src="img/about_us/image3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Слайдер -->
+    <div class="slider" id="slider">
+        <div class="title">
+            <h2>Сверстай слайдер</h2>
+            <div class="buttons_title">
+                <div class="buttons_slider">
+                    <button class="button_left">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M14 6L8 12L14 18" stroke="#05051A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <button class="button_right">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M10 18L16 12L10 6" stroke="#05051A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="sliders">
+            <div class="cards_slider">
+                <div class="card_slider">
+                    <img src="img/slider/image1.png" alt="">
+                    <div class="card_title">
+                        <p>Северная корона</p>
+                    </div>
+                </div>
+                <div class="card_slider">
+                    <img src="img/slider/image2.png" alt="">
+                    <div class="card_title">
+                        <p>Moscow barbering school</p>
+                    </div>
+                </div>
+                <div class="card_slider">
+                    <img src="img/slider/image3.png" alt="">
+                    <div class="card_title">
+                        <p>Rh store</p>
+                    </div>
+                </div>
+                <div class="card_slider">
+                    <img src="img/slider/image4.png" alt="">
+                    <div class="card_title">
+                        <p>Poolspecial</p>
+                    </div>
+                </div>
+                <div class="card_slider">
+                    <img src="img/slider/image5.png" alt="">
+                    <div class="card_title">
+                        <p>Rh prod</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Презентация -->
+    <div class="presentation" id="presentation">
+        <div class="image_presentation">
+            <img src="img/presentation/image1.jfif" alt="">
+        </div>
+        <div class="buttons_presentation">
+            <button class="button_presentation">
+                <div class="image_button">
+                    <img src="img/presentation/image1.jfif" alt="">
+                </div>
+                <span>Картинка 1</span>
+            </button>
+            <button class="button_presentation">
+                <div class="image_button">
+                    <img src="img/presentation/image2.jfif" alt="">
+                </div>
+                <span>Картинка 2</span>
+            </button>
+            <button class="button_presentation">
+                <div class="image_button">
+                    <img src="img/presentation/image3.jfif" alt="">
+                </div>
+                <span>Картинка 3</span>
+            </button>
+        </div>
+    </div>
+    <!-- Ответы на вопросы -->
+    <div class="info_support" id="info_support">
+        <div class="title_support">
+            <h2>Ответы на вопросы</h2>
+        </div>
+        <!-- Часто задоваемые вопросы -->
+        <div class="faq">
+            <div class="question">
+                <span>У вас много проектов?</span>
+                <button class="button_open_close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+                        <g clip-path="url(#clip0_2479_236)">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5148 17C7.5148 16.4477 7.96251 16 8.5148 16L16.0001 16L16.0001 8.51472C16.0001 7.96243 16.4478 7.51472 17.0001 7.51472C17.5524 7.51472 18.0001 7.96243 18.0001 8.51472L18.0001 16H25.4854C26.0376 16 26.4854 16.4477 26.4854 17C26.4854 17.5523 26.0376 18 25.4854 18H18.0001L18.0001 25.4853C18.0001 26.0376 17.5524 26.4853 17.0001 26.4853C16.4478 26.4853 16.0001 26.0376 16.0001 25.4853L16.0001 18L8.5148 18C7.96251 18 7.5148 17.5523 7.5148 17Z" fill="white"/>
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_2479_236">
+                            <rect width="24" height="24" fill="white" transform="translate(0.0292969 17) rotate(-45)"/>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                </button>
+            </div>
+            <div class="question">
+                <span>Есть ли карьерный рост?</span>
+                <button class="button_open_close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+                        <g clip-path="url(#clip0_2479_236)">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5148 17C7.5148 16.4477 7.96251 16 8.5148 16L16.0001 16L16.0001 8.51472C16.0001 7.96243 16.4478 7.51472 17.0001 7.51472C17.5524 7.51472 18.0001 7.96243 18.0001 8.51472L18.0001 16H25.4854C26.0376 16 26.4854 16.4477 26.4854 17C26.4854 17.5523 26.0376 18 25.4854 18H18.0001L18.0001 25.4853C18.0001 26.0376 17.5524 26.4853 17.0001 26.4853C16.4478 26.4853 16.0001 26.0376 16.0001 25.4853L16.0001 18L8.5148 18C7.96251 18 7.5148 17.5523 7.5148 17Z" fill="white"/>
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_2479_236">
+                            <rect width="24" height="24" fill="white" transform="translate(0.0292969 17) rotate(-45)"/>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                </button>
+            </div>
+            <div class="question">
+                <span>У вас большой штат?</span>
+                <button class="button_open_close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+                        <g clip-path="url(#clip0_2479_236)">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5148 17C7.5148 16.4477 7.96251 16 8.5148 16L16.0001 16L16.0001 8.51472C16.0001 7.96243 16.4478 7.51472 17.0001 7.51472C17.5524 7.51472 18.0001 7.96243 18.0001 8.51472L18.0001 16H25.4854C26.0376 16 26.4854 16.4477 26.4854 17C26.4854 17.5523 26.0376 18 25.4854 18H18.0001L18.0001 25.4853C18.0001 26.0376 17.5524 26.4853 17.0001 26.4853C16.4478 26.4853 16.0001 26.0376 16.0001 25.4853L16.0001 18L8.5148 18C7.96251 18 7.5148 17.5523 7.5148 17Z" fill="white"/>
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_2479_236">
+                            <rect width="24" height="24" fill="white" transform="translate(0.0292969 17) rotate(-45)"/>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                </button>
+            </div>
+            <div class="question">
+                <span>Какие цели у вашей студии?</span>
+                <button class="button_open_close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+                        <g clip-path="url(#clip0_2479_236)">
+                          <path fill-rule="evenodd" clip-rule="evenodd" d="M7.5148 17C7.5148 16.4477 7.96251 16 8.5148 16L16.0001 16L16.0001 8.51472C16.0001 7.96243 16.4478 7.51472 17.0001 7.51472C17.5524 7.51472 18.0001 7.96243 18.0001 8.51472L18.0001 16H25.4854C26.0376 16 26.4854 16.4477 26.4854 17C26.4854 17.5523 26.0376 18 25.4854 18H18.0001L18.0001 25.4853C18.0001 26.0376 17.5524 26.4853 17.0001 26.4853C16.4478 26.4853 16.0001 26.0376 16.0001 25.4853L16.0001 18L8.5148 18C7.96251 18 7.5148 17.5523 7.5148 17Z" fill="white"/>
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_2479_236">
+                            <rect width="24" height="24" fill="white" transform="translate(0.0292969 17) rotate(-45)"/>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- Форма -->
+    <div class="form_footer" id="form_footer">
+        <div class="form">
+            <div class="left">
+                <h2>Форма ОС</h2>
+                <p>Сверстай форму обратной связи. Будет круто, если заявку будут приходить сюда: a@growtask.ru</p>
+                <div class="other">
+                    <p>Не забудь вставить соц.сети</p>
+                    <div class="buttons_other">
+                        <button class="social">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <path d="M25.1788 32.3996C16.159 32.3996 11.0142 26.0933 10.7998 15.5996H15.318C15.4664 23.3017 18.7973 26.5642 21.4357 27.2368V15.5996H25.69V22.2423C28.2954 21.9564 31.0327 18.9293 31.9561 15.5996H36.2104C35.8625 17.3265 35.1688 18.9616 34.1729 20.4026C33.177 21.8436 31.9003 23.0596 30.4225 23.9744C32.072 24.8103 33.529 25.9934 34.6972 27.4457C35.8654 28.898 36.7184 30.5864 37.1998 32.3996H32.5167C32.0846 30.8247 31.2063 29.415 29.9919 28.347C28.7775 27.279 27.281 26.6003 25.69 26.396V32.3996H25.1788Z" fill="#0077FF"/>
+                            </svg>
+                        </button>
+                        <button class="social">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <path d="M33.5998 15.1231L29.9933 33.9511C29.9933 33.9511 29.4887 35.2565 28.1025 34.6305L19.7813 28.0235L19.7427 28.004C20.8667 26.9589 29.5827 18.8436 29.9636 18.4757C30.5533 17.906 30.1872 17.5669 29.5025 17.9972L16.628 26.464L11.661 24.7333C11.661 24.7333 10.8793 24.4454 10.8041 23.8193C10.7279 23.1922 11.6867 22.8531 11.6867 22.8531L31.9356 14.6271C31.9356 14.6271 33.5998 13.8699 33.5998 15.1231Z" fill="#27A6E5"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="inputs">
+                    <input type="text" placeholder="Напиши вопрос*">
+                    <input type="text" placeholder="Телефон или почта*">
+                </div>
+                <div class="inputs">
+                    <input type="text" placeholder="Твоё имя*">
+                    <input type="text" placeholder="Соц.сеть или мессенджер">
+                </div>
+                <div class="bid">
+                    <input type="submit" value="Отправить заявку">
+                    <div class="policy">
+                        <input type="checkbox">
+                        <span>Согласие с политикой</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Ссылки на соцсети -->
+            <div class="other-mini">
+                <p>Не забудь вставить соц.сети</p>
+                <div class="buttons_other">
+                    <button class="social">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M25.1788 32.3996C16.159 32.3996 11.0142 26.0933 10.7998 15.5996H15.318C15.4664 23.3017 18.7973 26.5642 21.4357 27.2368V15.5996H25.69V22.2423C28.2954 21.9564 31.0327 18.9293 31.9561 15.5996H36.2104C35.8625 17.3265 35.1688 18.9616 34.1729 20.4026C33.177 21.8436 31.9003 23.0596 30.4225 23.9744C32.072 24.8103 33.529 25.9934 34.6972 27.4457C35.8654 28.898 36.7184 30.5864 37.1998 32.3996H32.5167C32.0846 30.8247 31.2063 29.415 29.9919 28.347C28.7775 27.279 27.281 26.6003 25.69 26.396V32.3996H25.1788Z" fill="#0077FF"/>
+                        </svg>
+                    </button>
+                    <button class="social">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                            <path d="M33.5998 15.1231L29.9933 33.9511C29.9933 33.9511 29.4887 35.2565 28.1025 34.6305L19.7813 28.0235L19.7427 28.004C20.8667 26.9589 29.5827 18.8436 29.9636 18.4757C30.5533 17.906 30.1872 17.5669 29.5025 17.9972L16.628 26.464L11.661 24.7333C11.661 24.7333 10.8793 24.4454 10.8041 23.8193C10.7279 23.1922 11.6867 22.8531 11.6867 22.8531L31.9356 14.6271C31.9356 14.6271 33.5998 13.8699 33.5998 15.1231Z" fill="#27A6E5"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="images_form">
+            <div class="elipse">
+
+            </div>
+        </div> -->
+    </div>
+    <script src="js/script.js"></script>
+    <script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://snipp.ru/cdn/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+</body>
+</html>
